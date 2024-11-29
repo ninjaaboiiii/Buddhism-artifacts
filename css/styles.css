@@ -13,9 +13,10 @@ body {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 95%;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Navigation Styles */
@@ -33,6 +34,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
 .logo {
@@ -40,12 +45,14 @@ body {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
+    margin-right: auto;
 }
 
 .nav-menu {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 40px;
+    margin-left: auto;
 }
 
 .nav-link {
@@ -91,6 +98,7 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    opacity: 0.7;
 }
 
 .hero::before {
