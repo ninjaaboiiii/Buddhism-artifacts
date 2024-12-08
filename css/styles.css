@@ -484,3 +484,48 @@ footer {
 .artifact-gallery img:hover {
     transform: scale(1.05);
 }
+
+
+
+
+
+/* Hotspot styles */
+.hotspot {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E74C3C;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hotspot:hover {
+    background-color: #C0392B;
+    transform: scale(1.2);
+}
+
+.hotspot-label {
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    padding: 8px;
+    white-space: nowrap;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    pointer-events: none;
+}
+
+.hotspot:hover .hotspot-label {
+    display: block;
+}
+
+
+
+
